@@ -1,7 +1,7 @@
 .about-us .content {
     height: 20rem;
     width: 100%;
-    background-image: url('../assets/facility-bayscom2.png');
+    background-image: url('../assets/shake.jpg');
     background-size: cover;
     background-position: center;
   }
@@ -134,7 +134,7 @@
   }
   .board,
   .management {
-    background-color: #ffffff;
+    background-color: #f4f4f4;
     padding-bottom: 5rem;
   }
   .board .img-div {

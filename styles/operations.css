@@ -1,7 +1,7 @@
 .about-us .content {
     height: 20rem;
     width: 100%;
-    background-image: url('../assets/facility-bayscom2.png');
+    background-image: url('../assets/gear.jpg');
     background-size: cover;
     background-position: center;
   }
@@ -134,14 +134,14 @@
   }
   .board,
   .management {
-    background-color: #ffffff;
+    background-color: #f4f4f4;
     padding-bottom: 5rem;
   }
   .board .img-div {
-    background-image: url('../assets/bays7.png');
+    background-image: url('../assets/filling.jpg');
   }
   .management .img-div {
-    background-image: url('../assets/BAYS6.png');
+    background-image: url('../assets/well.jpg');
   }
   .about-us-nav {
     position: relative;
