@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Contact page</title>
+  <link rel="stylesheet" href="../styles/general.css" />
+  <link rel="stylesheet" href="../styles/style.css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800,900&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="stylesheet" href="../styles/contact.css" />
+</head>
+<body>
+  <nav class="navbar about-us-nav">
+    <div class="navbar__wrapper">
+      <div class="logo-div">
+        <img src="../assets/logo.png" alt="logo" />
+      </div>
+      <div class="navbar__links-div">
+        <div class="cancel-div">
+          <span class="fa fa-close"></span>
+        </div>
+        <div class="bottom-div">
+          <ul class="nav-list">
+            <div class="dropdown-background"></div>
+            <li class="dropdown-trigger">
+              <div class="parent-link"><a href="../index.html">HOME</a></div>
+            </li>
+            <li class="active-page dropdown-trigger">
+              <div class="parent-link ">
+                <a href="about.html">ABOUT US</a>
+              </div>
+              <!-- <ul class="child-links-container">
+                <li>
+                  <a href="">OUR HISTORY</a>
+                  <a href="">KEY MILESTONES</a>
+                  <a href="">OUR BRAND</a>
+                  <a href="">BOARD OF DIRECTORS</a>
+                  <a href="">MANAGEMENT TEAM</a>
+                  <a href="">CORPORATE POLICY</a>
+                </li>
+              </ul> -->
+            </li>
+            <li class="dropdown-trigger">
+              <div class="parent-link"><a href="Facility.html">FACILITIES</a></div>
+              <!-- <ul class="child-links-container">
+                <li>
+                  <a href="">OUR HISTORY</a>
+                  <a href="">KEY MILESTONES</a>
+                  <a href="">OUR BRAND</a>
+                  <a href="">BOARD OF DIRECTORS</a>
+                  <a href="">MANAGEMENT TEAM</a>
+                  <a href="">CORPORATE POLICY</a>
+                </li>
+              </ul> -->
+            </li>
+            <li class="dropdown-trigger">
+              <div class="parent-link"><a href="operations.html">OPERATIONS</a></div>
+              <!-- <ul class="child-links-container">
+                <li>
+                  <a href="">OUR HISTORY</a>
+                  <a href="">KEY MILESTONES</a>
+                  <a href="">OUR BRAND</a>
+                  <a href="">BOARD OF DIRECTORS</a>
+                  <a href="">MANAGEMENT TEAM</a>
+                  <a href="">CORPORATE POLICY</a>
+                </li>
+              </ul>
+            </li> -->
+            <li>
+              <div class="parent-link"><a href="contact.html">CONTACT</a></div>
+            </li>
+            <li class="dropdown-trigger">
+              <div class="parent-link"><a href="team.html">OUR TEAM</a></div>
+              <!-- <ul class="child-links-container">
+                <li>
+                  <a href="">CART</a>
+                </li> -->
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="soc-media">
+          <!-- <a href="" class="grey-link media-link">
+            <span class="fa fa-facebook-f"></span>
+          </a>
+          <a href="" class="grey-link media-link">
+            <span class="fa fa-twitter"></span>
+          </a>
+          <a href="" class="grey-link media-link">
+            <span class="fa fa-instagram"></span>
+          </a>
+          <a href="" class="grey-link media-link">
+            <span class="fa fa-youtube"></span> -->
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="hamburger-div" id="hamburger">
+      <span class="fa fa-bars"></span>
+    </div>
+  </div>
+</nav>
+</head>
+
+<body>
+  <section class="wrapper">
+    <form class="form">
+      <div class="pageTitle title">Contact Us </div>
+      <div class="secondaryTitle title">Please fill this form.</div>
+      <input type="text" class="name formEntry" placeholder="Name" />
+      <input type="text" class="email formEntry" placeholder="Email"/>
+      <textarea class="message formEntry" placeholder="Message"></textarea>
+      <input type="checkbox" class="termsConditions" value="Term">
+      <label style="color: grey" for="terms"> I Accept the <span style="color: #0e3721">Terms of Use</span> & <span style="color: #0e3721">Privacy Policy</span>.</label><br>
+      <button class="submit formEntry" onclick="thanks()">Submit</button>
+    </form>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>

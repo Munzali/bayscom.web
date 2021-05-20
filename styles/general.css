@@ -274,7 +274,7 @@ footer .media-link {
 @media screen and (min-width: 900px) {
   body {
     padding: 0 10rem;
-    font-size: 2rem;
+    font-size: rem;
   }
   .navbar {
     border-top: 0.5rem solid #3f7b47;
